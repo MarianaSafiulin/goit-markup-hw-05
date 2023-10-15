@@ -669,7 +669,6 @@ ol {
   position: relative;
 }
 .modal-icons {
-  fill: transparent;
   stroke: #404040;
   position: absolute;
   left: 16px;
