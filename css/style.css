@@ -800,8 +800,8 @@ ol {
   letter-spacing: 0.04em;
 }
 .footer-form-btn {
-  width: 165px;
   height: 40px;
+  min-width: 165px;
 
   display: inline-flex;
   justify-content: center;
@@ -811,12 +811,17 @@ ol {
   color: #fff;
   background-color: #4d5ae5;
   border: none;
-  color: var(--WHITE, #fff);
+  color: #fff;
   text-align: center;
 
   font-size: 16px;
 
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+
+.footer-button-icon {
+  margin-left: 16px;
 }
