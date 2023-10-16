@@ -690,9 +690,7 @@ ol {
   fill: #4d5ae5;
 }
 
-.modal-field {
-  margin-bottom: 8px;
-}
+
 .input-wrap {
   margin-bottom: 8px;
   position: relative;
@@ -761,7 +759,11 @@ ol {
   letter-spacing: 0.04em;
 }
 .modal-field {
-  margin-bottom: 24px;
+  margin-bottom: 8px;
+}
+.modal-field-comment{
+  margin-bottom: 16px; 
+
 }
 .check-text {
   display: flex;
