@@ -690,7 +690,6 @@ ol {
   fill: #4d5ae5;
 }
 
-
 .input-wrap {
   margin-bottom: 8px;
   position: relative;
@@ -721,7 +720,8 @@ ol {
   margin: 0 auto;
   min-width: 169px;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); }
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .modal-label {
   display: block;
@@ -761,9 +761,8 @@ ol {
 .modal-field {
   margin-bottom: 8px;
 }
-.modal-field-comment{
-  margin-bottom: 16px; 
-
+.modal-field-comment {
+  margin-bottom: 16px;
 }
 .check-text {
   display: flex;
@@ -788,13 +787,16 @@ ol {
   justify-content: center;
   display: inline-flex;
   fill: transparent;
-  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  background-color: cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-check:checked + .check-text > .check-text-box {
+.modal-check:checked + .check-text .check-text-box {
   background-color: #404bbf;
+  border-color: #4d5ae5;
+  fill: #f4f4fd;
   border: none;
-  fill:  #F4F4FD;
 }
 
 .footer-media-form {
@@ -845,6 +847,6 @@ ol {
   cursor: pointer;
 }
 
-.footer-button-icon {
+.privacy-policy-link .footer-button-icon {
   margin-left: 16px;
 }
