@@ -722,6 +722,13 @@ ol {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-form-btn:hover {
+  background-color: #404bbf;
+}
+.modal-form-btn:focus {
+  background-color: #404bbf;
+}
+
 .modal-label {
   display: block;
   color: var(--LIGHT-SLATE, #8e8f99);
@@ -851,6 +858,14 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+}
+
+.footer-form-btn:hover {
+  background-color: #404bbf;
+}
+
+.footer-form-btn:focus {
+  background-color: #404bbf;
 }
 .footer-button-icon {
   margin-left: 16px;
