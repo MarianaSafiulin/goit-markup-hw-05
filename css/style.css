@@ -674,7 +674,7 @@ ol {
   border-radius: 4px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   background-color: transparent;
-
+  font-size: 12px;
   padding-left: 38px;
   padding-right: 24px;
   outline: transparent;
@@ -786,9 +786,13 @@ ol {
   justify-content: center;
   display: inline-flex;
   fill: transparent;
+  margin-right: 8px;
 }
 .modal-field-checkbox {
   margin-bottom: 24px;
+}
+.modal-check:focus + .check-text .check-text-box {
+  border-color: #4d5ae5;
 }
 
 .modal-check:checked + .check-text .check-text-box {
@@ -796,6 +800,9 @@ ol {
   border-color: #4d5ae5;
   fill: #f4f4fd;
   border: none;
+}
+.footer-media {
+  margin-left: auto;
 }
 
 .footer-media-form {
@@ -830,7 +837,7 @@ ol {
   display: inline-flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
+
   border-radius: 4px;
   color: #fff;
   background-color: #4d5ae5;
@@ -851,5 +858,4 @@ ol {
 
 .privacy-policy-link {
   color: #4d5ae5;
-  margin-left: 16px;
 }
