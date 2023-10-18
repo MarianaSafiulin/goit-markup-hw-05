@@ -520,7 +520,7 @@ ol {
 }
 .container-footer-container {
   display: flex;
-  gap: 16px;
+
   align-items: baseline;
 }
 
@@ -808,12 +808,9 @@ ol {
   fill: #f4f4fd;
   border: none;
 }
-.footer-media {
-  margin-left: auto;
-}
 
 .footer-media-form {
-  padding-left: 80px;
+  padding-left: auto;
 }
 .footer-form {
   display: flex;
